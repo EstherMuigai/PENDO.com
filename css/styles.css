@@ -1,0 +1,33 @@
+
+/*Card styles*/
+.card{
+
+  transition: transform .2s;
+}
+.btnCard{
+  width: 20rem;
+  border-radius: 0;
+}
+.card:hover{
+  transform: scale(1.2);
+}
+/* Set card backgrounds */
+.cardSet1{
+ background-color: #F3D76A;
+}
+
+.cardSet2{
+ background-color: #EDB28A;
+}
+.cardSet3{
+background-color: #F6F8F7;
+}
+.cardSet4{
+background-color: #FFAEAA;
+}
+.cardSet5{
+background-color: #F8EFC4;
+}
+.cardSet6{
+background-color: #F3BC93;
+}
