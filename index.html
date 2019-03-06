@@ -3,11 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>PENDO</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-  </head>
+    <<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/js/mdb.min.js"></script>
+
+
+</head>
   <body>
     <div class="container">
       <h1>PENDO</h1>
@@ -116,113 +129,118 @@
       <!---start page4-->
       <div id="page4">
           <ol id="culturequestions">
-            <h5>Culture, Religion and Family Background</h5>
-              <li class="question" id="culture1"> Which of the following best describes your family structure?
-                <div class="radio">
-                  <label>Single Parent</br>
-                    <input type="radio" name="single" value="mother">Mother</br>
-                    <input type="radio" name="single" value="father">Father</br>
-                    <div class="row">
-                        <label class="radio-inline">Cause</br>
-                          <input type="radio" name="both" value="divorce">Divorce</br>
-                          <input type="radio" name="both" value="seperation">Separation</br>
-                          <input type="radio" name="both" value="death">Death</br>
-                          <input type="radio" name="both" value="unknown">Unknown</br>
-                          <input type="radio" name="both" value="unknown">It's Complicated</br>
-                        </label>
-                    </div>  
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>Both parents</br>
-                    <input type="radio" name="both" value="stable">Stable</br>
-                    <input type="radio" name="both" value="strained">Strained</br>
-                    <input type="radio" name="both" value="on&off">On ad Off</br>
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="question1" value="scripting">
-                    scripting
-                  </label>
-              </li>
-
-              <li class="question" id="question2">What is the correct JavaScript syntax to change the content of a HTML element.
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="question2" value="innerHtml">
-                    #element.innerHtml="string"
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="question2" value="document.getelement(#element).innerHtml="String"">
-                    document.getelement(#element).innerHtml="String"
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="question2" value="document.getelement(element).innerHtml="String"">
-                    document.getelement(element).innerHtml="String"
-                  </label>
-              </li>
-              <li class="question" id="question3">What is the correct JavaScript syntax to change the content of a HTML element.
+            <ol id="culturequestions">
+              <h5>Culture, Religion and Family Background</h5>
+                <li class="question" id="culture1"> Which of the following best describes your family structure?
                   <div class="radio">
-                    <label>
-                      <input type="radio" name="question3" value="innerHtml">
-                      #element.innerHtml="string"
+                    <label>Single Parent</br>
+                      <input type="radio" name="family" value="single">Mother</br>
+                      <input type="radio" name="family" value="single">Father</br>
+                      <div class="row">
+                          <label class="radio-inline">Cause</br>
+                            <input type="radio" name="cause" value="divorce">Divorce</br>
+                            <input type="radio" name="cause" value="seperation">Separation</br>
+                            <input type="radio" name="cause" value="death">Death</br>
+                            <input type="radio" name="cause" value="unknown">Unknown</br>
+                            <input type="radio" name="cause" value="complicated">It's Complicated</br>
+                          </label>
+                      </div>  
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>Both Parents</br>
+                        <input type="radio" name="both" value="stable">Stable</br>
+                        <input type="radio" name="both" value="strained">Strained</br>
+                      <input type="radio" name="both" value="on&off">On and Off</br>
+                    </label>
                     </label>
                   </div>
                   <div class="radio">
                     <label>
-                      <input type="radio" name="question3" value="document.getelement(#element).innerHtml="String"">
-                      document.getelement(#element).innerHtml="String"
+                      <input type="radio" name="family" value="polygamous">
+                      Polygamous
                     </label>
                   </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="question3" value="document.getelement(element).innerHtml="String"">
-                      document.getelement(element).innerHtml="String"
-                    </label>
                 </li>
-                <li class="question" id="question4">What is the correct JavaScript syntax to change the content of a HTML element.
+                <li class="question" id="culture2"> Which of the following best describes your religious beliefs?
                     <div class="radio">
                       <label>
-                        <input type="radio" name="question4" value="innerHtml">
-                        #element.innerHtml="string"
+                        <input type="radio" name="religion" value="christian">Christian</br>  
                       </label>
                     </div>
                     <div class="radio">
-                      <label>
-                        <input type="radio" name="question4" value="document.getelement(#element).innerHtml="String"">
-                        document.getelement(#element).innerHtml="String"
-                      </label>
+                        <label>
+                          <input type="radio" name="religion" value="muslim">Islam</br>  
+                        </label>
                     </div>
                     <div class="radio">
-                      <label>
-                        <input type="radio" name="question4" value="document.getelement(element).innerHtml="String"">
-                        document.getelement(element).innerHtml="String"
-                      </label>
+                          <label>
+                            <input type="radio" name="religion" value="none">Non-religious/Secular/Agnostic/Atheist</br>  
+                          </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                          <input type="radio" name="religion" value="hinduism">Hinduism</br>  
+                        </label>
+                    </div>
+                    <div class="radio">
+                          <label>
+                            <input type="radio" name="religion" value="chinese">Chinese Traditional Language</br>  
+                          </label>
+                    </div>
+                    <div class="radio">
+                          <label>
+                            <input type="radio" name="religion" value="buddhism">Buddhism</br>  
+                          </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                          <input type="radio" name="religion" value="Indigenous">Indeginous</br>  
+                        </label>
+                  </div>
                   </li>
-                  <li class="question" id="question5">What is the correct JavaScript syntax to change the content of a HTML element.
+                  <li class="question" id="culture4"> Which ethnic group do you belong to?</br>
                       <div class="radio">
                         <label>
-                          <input type="radio" name="question5" value="innerHtml">
-                          #element.innerHtml="string"
+                          <input type="textarea" name="ethnicity" placeholder="type here"></br> 
+                        </label></br>
+                        <label class = "radio-inline">On a scale of 1-5, how does that influnce your choices?</br>
+                            <input type="radio" name="scale" value="1">1
+                            <input type="radio" name="scale" value="2">2
+                            <input type="radio" name="scale" value="3">3
+                            <input type="radio" name="scale" value="4">4
+                            <input type="radio" name="scale" value="5">5
+                          </label>
+                      </div>
+                  </li>
+                  <li class="question" id="culture5"> Which statement is true for you?
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="background" value="pAbuse">I experienced extreme physical abuse growing up
                         </label>
                       </div>
                       <div class="radio">
-                        <label>
-                          <input type="radio" name="question5" value="document.getelement(#element).innerHtml="String"">
-                          document.getelement(#element).innerHtml="String"
-                        </label>
-                      </div>
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="question5" value="document.getelement(element).innerHtml="String"">
-                          document.getelement(element).innerHtml="String"
-                        </label>
-                    </li>
+                          <label>
+                            <input type="radio" name="background" value="eAbuse">I experienced extreme emotional abuse growing up
+                          </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                              <input type="radio" name="background" value="lpAbuse">I experienced mild physical abuse as a child
+                            </label>
+                          </div>
+                          <div class="radio">
+                              <label>
+                                <input type="radio" name="background" value="leAbuse">I experienced mild emotional abuse as a child
+                              </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                  <input type="radio" name="background" value="noAbuse">I experienced no abuse growing up
+                                </label>
+                              </div>
+                  </li>
+                  
               
 
 
@@ -439,25 +457,25 @@
               <li class="question" id="temperament1"> Which stamement best describes your overall mood normally?
                 <div class="radio">
                   <label>
-                    <input type="radio" name="sanguine" value="10">
+                    <input type="radio" name="temperament1" value="sanguine">
                     Fun-loving, happy, in a good mood generally, ready to smile or laugh
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="melancholic"" value="10">
+                    <input type="radio" name="temperament1" value="melancholic">
                     I tend to be moody,I get carried away by sad events,happy moods are short-lived.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="phlegmatic" value="10">
+                    <input type="radio" name="temperament1" value="phlegmatic">
                     I'm generally calm and quiet, quite relaxed and generally neutral.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="choleric" value="10">
+                    <input type="radio" name="temperament1" value="choleric">
                     I'm mostly serious, focused on my plans/agenda, I couldn't really describe my general mood.
                   </label>
                 </div>
@@ -465,25 +483,25 @@
               <li class="question" id="temperament2"> Which stamement best describes your social nature?
                 <div class="radio">
                   <label>
-                    <input type="radio" name="sanguine" value="10">
+                    <input type="radio" name="temperament2" value="sanguine">
                     I am social, always starting or joining in converations. I value social connection.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="melancholic"" value="10">
+                    <input type="radio" name="temperament2" value="melancholic">
                     I'm a loner, I enjoy being in my own space occupied with my thoughts and ideas.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="phlegmatic" value="10">
+                    <input type="radio" name="temperament2" value="phlegmatic">
                     I tend to observe a lot, I easily make friends but I don't mind just being in the background.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="choleric" value="10">
+                    <input type="radio" name="temperament2" value="choleric">
                     When in a group, I take charge of the situation, offering a plan or way forward.
                   </label>
                 </div>
@@ -491,25 +509,25 @@
               <li class="question" id="temperament3"> Which of the following best describes you in the work environment?
                 <div class="radio">
                   <label>
-                    <input type="radio" name="sanguine" value="10">
+                    <input type="radio" value="sanguine" name="temperament3">
                     I love new exciting projects especially those that require collaboration and team work. I find routine to be boring.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="melancholic"" value="10">
+                    <input type="radio" value="melancholic" name="temperament3">
                     I enjoy creating, working diligently towards perfection. I don't like being distracted from this.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="phlegmatic" value="10">
+                    <input type="radio" value="phlegmatic" name="temperament3">
                     I do what needs to be done, sticking to a job description/workflow as outlined. I have a hard time switching it up.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="choleric" value="10">
+                    <input type="radio" value="choleric" name="temperament3">
                     I enjoy working towards set goals. I tend to lead most groups I am in. I am very focused towards what I am working on.
                   </label>
                 </div>
@@ -517,25 +535,25 @@
               <li class="question" id="temperament4"> Which stament best describes the trait that you are guilty of?
                 <div class="radio">
                   <label>
-                    <input type="radio" name="sanguine" value="10">
+                    <input type="radio" value="sanguine" name="temperament4">
                     I can tend to be impulsive, I commit to plans/projects then end up not completing or achieving all of them. I'm also very talkative.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="melancholic"" value="10">
+                    <input type="radio" value="melancholic" name="temperament4">
                     My moodines often affects how I relate with others. On some days I react more emotionally than is warranted.This later makes me sad and withdrawan.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="phlegmatic" value="10">
+                    <input type="radio" value="phlegmatic" name="temperament4">
                     I can be quite sacarstic. I tend to act like I am accepting of an idea/plan just so that I don't stand out but I know in the end I will not act in line with the said goal/plan unless I have to.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="choleric" value="10">
+                    <input type="radio" value="choleric" name="temperament4">
                     I am impatient with people who are slow,lazy or unfocused.It really gets to me. I also prefer doing things my own way hence I dominate my environment which can at times come off as being rude.
                   </label>
                 </div>
@@ -543,25 +561,25 @@
               <li class="question" id="temperament5"> What comment resonates with what most people say about you or tell you?
                 <div class="radio">
                   <label>
-                    <input type="radio" name="sanguine" value="10">
+                    <input type="radio" value="sanguine" name="temperament5">
                     "You are always the life of the party!" / "How are you so happy/energized right now?"
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="melancholic"" value="10">
+                    <input type="radio" value="melancholic" name="temperament5">
                     "Are you okay?" / "You should try and cheer up" "
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="phlegmatic" value="10">
+                    <input type="radio" value="phlegmatic" name="temperament5">
                     "You're such a good friend" / "You look so calm" / "You haven't been participating in the talk/forum/group"
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="choleric" value="10">
+                    <input type="radio" value="choleric" name="temperament5">
                     "Could you give me tips/advice on something" / "You are a great leader" / "I knew you are the right person to call, I need your help"
                   </label>
                 </div>
@@ -575,31 +593,31 @@
               <li class="question" id="knowyou1"> Best idea of a date/activity/plan....
                 <div class="radio">
                   <label>
-                    <input type="radio" name="date1" value="10">
+                    <input type="radio" name="date1" value="1">
                     Going out for a social activity such as a meetup/hangout.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name=date2" value="10">
+                    <input type="radio" name="date1" value="2">
                     Cuddling or cosying up in the house and focusing on each other.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="date3" value="10">
+                    <input type="radio" name="date1" value="3">
                     Doing seperate activities within the same place i.e reading a book or working
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="date4" value="10">
+                    <input type="radio" name="date1" value="4">
                    Going out to a fancy joint to have a romantic lunch/dinner date
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="date5" value="10">
+                    <input type="radio" name="date1" value="5">
                   Adrenaline junkie. Something exciting and adventorous such as rock cklimbing or ziplining.
                   </label>
                 </div>
@@ -607,37 +625,37 @@
               <li class="question" id="knowyou2"> Which kind of movies/series...
                 <div class="radio">
                   <label>
-                    <input type="radio" name="movie1" value="10">
+                    <input type="radio" name="movie2" value="1">
                     Drama
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="movie2" value="10">
+                    <input type="radio" name="movie2" value="2">
                     Romantic comedies
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="movie3" value="10">
+                    <input type="radio" name="movie2" value="3">
                     SCI-FI
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="movie4" value="10">
+                    <input type="radio" name="movie2" value="4">
                    Action/War
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="movie5" value="10">
+                    <input type="radio" name="movie2" value="5">
                    Horror
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="movie6" value="10">
+                    <input type="radio" name="movie2" value="6">
                    Not a fan of movies/series
                   </label>
                 </div>
@@ -651,31 +669,31 @@
               <li class="question" id="knowyou4"> Love language....
                 <div class="radio">
                   <label>
-                    <input type="radio" name="love1" value="10">
+                    <input type="radio" name="love4" value="1">
                     Gifts are the best way someone can show they love me and that they're thinking about me
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="love2" value="10">
+                    <input type="radio" name="love4" value="2">
                     Lets have some speial time just for the two of us to talk or do something together
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="love3" value="10">
+                    <input type="radio" name="love4" value="3">
                     Lets cuddle, kiss and keep contact. That expresses just how much you love me.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="love4" value="10">
+                    <input type="radio" name="love4" value="4">
                     Helping me out with chores, errands and lending out a hand when I have a lot of workload makes me feel loved.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="love5" value="10">
+                    <input type="radio" name="love4" value="5">
                    Absolutely love it when I'm complimented on how I look/talk,behave. It makes me feel special and loved.
                   </label>
                 </div>
