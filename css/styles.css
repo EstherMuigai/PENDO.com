@@ -23,6 +23,7 @@ a[data-toggle="collapse"] {
     right: 20px;
     transform: translateY(-50%);
 
+
 }
 /*Card styles*/
 .card{
@@ -56,3 +57,6 @@ background-color: #F8EFC4;
 }
 .cardSet6{
 background-color: #F3BC93;
+
+}
+
