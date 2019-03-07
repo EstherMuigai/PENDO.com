@@ -64,6 +64,11 @@ h5 {
   font-size: 35px;
   text-align: center;
 }
+
+ol {
+list-style: none;
+}
+
 #page4 {
   width: 60%;
   height: 100%;
@@ -84,8 +89,17 @@ h5 {
 .cultureshow4{
   margin-top: 10%;
 }
-#lovelanguagequestions{
-
+#languageshow2{
+  display: none;
+}
+#languageshow3{
+  display: none;
+}
+#languageshow4{
+  display: none;
+}
+#languageshow5{
+  display: none;
 }
 #financequestions{
   margin-top: 10%;
