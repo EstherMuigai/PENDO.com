@@ -1,19 +1,105 @@
-$(document).ready(function(){
-  $("form#personafrm").submit(function(event){
-    event.preventDefault();
-
-    var Q1 = parseInt($("input:radio[name=question1]:checked").val());
-    var Q2 = parseInt($("input:radio[name=question2]:checked").val());
-    var Q3 = parseInt($("input:radio[name=question3]:checked").val());
-    var Q4 = parseInt($("input:radio[name=question4]:checked").val());
-    var Q5 = parseInt($("input:radio[name=question5]:checked").val());
-    var totalQ1 =
-    var totalQ2 =
-    var totalQ3 =
-    var totalQ4 =
-    var totalQ5 = 
-
-    var name=$("input#studentsname").val();
-    $("#marks").text ("Hello "+name+" "+",you scored "+ total + "%");
-    grades(total);
-  });
+$("button#ebutton1").click(function(){
+  $("div.cultureshow1").submit(function(event){
+  event.preventDefault();
+  $("div.cultureshow2").show();
+  $("div.cultureshow1").hide();
+});
+});
+$("button#ebutton2").click(function(){
+  $("div.cultureshow2").submit(function(event){
+  event.preventDefault();
+  $("div.cultureshow3").show();
+  $("div.cultureshow2").hide();
+});
+});
+$("button#ebutton3").click(function(){
+  $("div.cultureshow3").submit(function(event){
+  event.preventDefault();
+  $("div.cultureshow4").show();
+  $("div.cultureshow3").hide();
+});
+});
+$("button#fbutton1").click(function(){
+  $("div.financeshow1").submit(function(event){
+  event.preventDefault();
+  $("div.financeshow2").show();
+  $("div.financeshow1").hide();
+});
+});
+$("button#fbutton2").click(function(){
+  $("div.financeshow2").submit(function(event){
+  event.preventDefault();
+  $("div.financeshow3").show();
+  $("div.financeshow2").hide();
+});
+});
+$("button#fbutton3").click(function(){
+  $("div.financeshow3").submit(function(event){
+  event.preventDefault();
+  $("div.financeshow4").show();
+  $("div.financeshow3").hide();
+});
+});
+$("button#fbutton4").click(function(){
+  $("div.financeshow4").submit(function(event){
+  event.preventDefault();
+  $("div.financeshow5").show();
+  $("div.financeshow4").hide();
+});
+});
+$("button#tbutton1").click(function(){
+  $("div.temperamentshow1").submit(function(event){
+  event.preventDefault();
+  $("div.temperamentshow2").show();
+  $("div.temperamentshow1").hide();
+});
+});
+$("button#tbutton2").click(function(){
+  $("div.temperamentshow2").submit(function(event){
+  event.preventDefault();
+  $("div.temperamentshow3").show();
+  $("div.temperamentshow2").hide();
+});
+});
+$("button#tbutton3").click(function(){
+  $("div.temperamentshow3").submit(function(event){
+  event.preventDefault();
+  $("div.temperamentshow4").show();
+  $("div.temperamentshow3").hide();
+});
+});
+$("button#tbutton4").click(function(){
+  $("div.temperamentshow4").submit(function(event){
+  event.preventDefault();
+  $("div.temperamentshow5").show();
+  $("div.temperamentshow4").hide();
+});
+});
+$("button#kbutton1").click(function(){
+  $("div.knowyoushow1").submit(function(event){
+  event.preventDefault();
+  $("div.knowyoushow2").show();
+  $("div.knowyoushow1").hide();
+});
+});
+$("button#kbutton2").click(function(){
+  $("div.knowyoushow2").submit(function(event){
+  event.preventDefault();
+  $("div.knowyoushow3").show();
+  $("div.knowyoushow2").hide();
+});
+});
+$("button#kbutton3").click(function(){
+  $("div.knowyoushow3").submit(function(event){
+  event.preventDefault();
+  $("div.knowyoushow4").show();
+  $("div.knowyoushow3").hide();
+});
+});
+$("button#kbutton4").click(function(){
+  $("div.knowyoushow4").submit(function(event){
+  event.preventDefault();
+  $("div.knowyoushow5").show();
+  $("div.knowyoushow4").hide();
+});
+});

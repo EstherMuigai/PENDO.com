@@ -107,5 +107,198 @@ h5 {
 #ebutton1:hover{
   background-color: black;
 }
-
-
+#ebutton2 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#ebutton2:hover{
+  background-color: black;
+}
+#ebutton3 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#ebutton3:hover{
+  background-color: black;
+}
+#ebutton4 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#ebutton4:hover{
+  background-color: black;
+}
+.cultureshow2 {
+  display: none;
+}
+.cultureshow3{
+  display: none;
+}
+ol {
+  list-style: none;
+}
+.cultureshow4 {
+  display: none;
+}
+.cultureshow5 {
+  display: none;
+}
+.financeshow2 {
+  display: none
+}
+#fbutton1 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#fbutton1:hover{
+  background-color: black;
+}
+#fbutton2 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#fbutton2:hover{
+  background-color: black;
+}
+#fbutton3 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#fbutton3:hover{
+  background-color: black;
+}
+#fbutton4 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#fbutton4:hover{
+  background-color: black;
+}
+#fbutton5 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 3cm;
+}
+#fbutton5:hover{
+  background-color: black;
+}
+#tbutton1 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#tbutton1:hover{
+  background-color: black;
+}
+#tbutton2 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#tbutton2:hover{
+  background-color: black;
+}
+#tbutton3 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#tbutton3:hover{
+  background-color: black;
+}
+#tbutton4 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#tbutton4:hover{
+  background-color: black;
+}
+#tbutton5 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 3cm;
+}
+#tbutton5:hover{
+  background-color: black;
+}
+#kbutton1 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#kbutton1:hover{
+  background-color: black;
+}
+#kbutton2 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#kbutton2:hover{
+  background-color: black;
+}
+#kbutton3 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#kbutton3:hover{
+  background-color: black;
+}
+#kbutton4 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#kbutton4:hover{
+  background-color: black;
+}
+#kbutton5 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 3cm;
+}
+#kbutton5:hover{
+  background-color: black;
+}
+.financeshow3 {
+  display: none
+}
+.financeshow4 {
+  display: none
+}
+.financeshow5 {
+  display: none
+}
+.temperamentshow2 {
+  display: none
+}
+.temperamentshow3 {
+  display: none
+}
+.temperamentshow4 {
+  display: none
+}
+.temperamentshow5 {
+  display: none
+}
+.knowyoushow2 {
+  display: none
+}
+.knowyoushow3 {
+  display: none
+}
+.knowyoushow4 {
+  display: none
+}
+.knowyoushow5 {
+  display: none
+}
