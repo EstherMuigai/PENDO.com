@@ -9,14 +9,6 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-<<<<<<< HEAD
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/styles.css">
-=======
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twit">
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
@@ -24,8 +16,7 @@
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-
->>>>>>> a16af6550ff8b92b8abd9856af9391756574ae9a
+  
   <!-- JQuery -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Bootstrap tooltips -->
@@ -485,200 +476,113 @@
           </ol>
           <ol id="lovelanguagequestions">
             <h5>Love Language</h5>
-            <div class="list-group-item">
+            <form id="languageform">
+            <div id="languageshow1">
             <div class="list-group-item list-group-item-info">
-              <li class="question" id="language1">Which one best describes you?
+              <li class="question" id="language1"> 1. Which one best describes you?
             </div>
-              <div class="radio">
+              <div class="list-group-item">
                 <label>
                   <input type="radio" name="question1" value="wordsofaffirmation">
-                  I always compliment my partner, use kind words, appreciate them and extend to them a listening ear.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  I always compliment my partner, use kind words, appreciate them and extend to them a listening ear.</br>
                   <input type="radio" name="question1" value="qualitytime">
-                  I like spending quality time with my partner and giving them undivided attention.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  I like spending quality time with my partner and giving them undivided attention.</br>
                   <input type="radio" name="question1" value="physicaltouch">
-                  I enjoy hugs, holding hands, gentle touches and physical contact.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  I enjoy hugs, holding hands, gentle touches and physical contact.</br>
                   <input type="radio" name="question1" value="receivinggifts">
-                  I like giving my partner small gifts.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  I like giving my partner small gifts.</br>
                   <input type="radio" name="question1" value="service">
-                  I like being of assistance to my partner and fulfilling their wishes when they need help with something.
+                  I like being of assistance to my partner and fulfilling their wishes when they need help with something.</br>
                 </label>
+                <button type="submit" class ="btn btn-info" id="sbutton1" >Next</button>
               </div>
             </li>
-            </div>
-            <br>
-            <button type="submit" class ="btn btn-info" id="sbutton1" >Next</button>
-            <br>
-            <div class="list-group-item">
+           </div>
+            <div id="languageshow2">
             <div class="list-group-item list-group-item-info">
-              <li class="question" id="language2"> I don't like it when
+              <li class="question" id="language2"> 2. I don't like it when
             </div>
-              <div class="radio">
+              <div class="list-group-item">
                 <label>
                   <input type="radio" name="question2" value="wordsofaffirmation">
-                  My partner assumes that I know that he/she loves me.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  My partner assumes that I know that he/she loves me.</br>
                   <input type="radio" name="question2" value="qualitytime">
-                  I talk to my partner and they are constantly distracted by their phones.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  I talk to my partner and they are constantly distracted by their phones.</br>
                   <input type="radio" name="question2" value="physicaltouch">
-                  My partner and I watch movies while seating far away from each other.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  My partner and I watch movies while seating far away from each other.</br>
                   <input type="radio" name="question2" value="receivinggifts">
-                  My partner forgets special occasions.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  My partner forgets special occasions.</br>
                   <input type="radio" name="question2" value="service">
-                  My partner makes someone else’s to-do’s more important than mine.
-                </label>
+                  My partner makes someone else’s to-do’s more important than mine.</br>
+                </label></br>
+                <button type="submit" class ="btn btn-info" id="sbutton2" >Next</button>
               </div>
             </li>
-            </div>
-            <br>
-            <button type="submit" class ="btn btn-info" id="sbutton1" >Next</button>
-            <br>
-            <div class="list-group-item">
+          </div>
+            <div id="languageshow3">
             <div class="list-group-item list-group-item-info">
-            <li class="question" id="language3"> I am always looking forward to
+            <li class="question" id="language3"> 3. I am always looking forward to
             </div>
-              <div class="radio">
+              <div class="list-group-item">
                 <label>
                   <input type="radio" name="question3" value="wordsofaffirmation">
-                  Sweet texts, special notes or love letters from my partner.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  Sweet texts, special notes or love letters from my partner.</br>
                   <input type="radio" name="question3" value="qualitytime">
-                  Spending time with my partner even if it's running errands.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  Spending time with my partner even if it's running errands.</br>
                   <input type="radio" name="question3" value="physicaltouch">
-                  Non-verbal body language to emphasize our affection towards each other.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  Non-verbal body language to emphasize our affection towards each other.</br>
                   <input type="radio" name="question3" value="receivinggifts">
-                  Giving thoughtful gifts to my partner on special occasions.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  Giving thoughtful gifts to my partner on special occasions.</br>
                   <input type="radio" name="question3" value="service">
-                  Completing house chores together.
+                  Completing house chores together.</br>
                 </label>
+                <button type="submit" class ="btn btn-info" id="sbutton3" >Next</button>
               </div>
             </li>
             </div>
-            <br>
-            <button type="submit" class ="btn btn-info" id="sbutton3" >Next</button>
-            <br>
-            <div class="list-group-item">
+            <div id="languageshow4">
             <div class="list-group-item list-group-item-info">
-              <li class="question" id="language4"> I am the kind of person who would
+              <li class="question" id="language4"> 4. I am the kind of person who would
             </div>
-              <div class="radio">
+              <div class="list-group-item">
                 <label>
                   <input type="radio" name="question4" value="wordsofaffirmation">
-                  Tell their partner "There's no one else I would rather be with right now!"
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  Tell their partner "There's no one else I would rather be with right now!"</br>
                   <input type="radio" name="question4" value="qualitytime">
-                  Make datenight a weekly event and add it to the calender.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  Make datenight a weekly event and add it to the calender.</br>
                   <input type="radio" name="question4" value="physicaltouch">
-                  Sqeeze my partner's hand at an inside joke we both share.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  Sqeeze my partner's hand at an inside joke we both share.</br>
                   <input type="radio" name="question4" value="receivinggifts">
-                  Surprise my partner occasionally with gifts every time I come home from a vacation /trip.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  Surprise my partner occasionally with gifts every time I come home from a trip.</br>
                   <input type="radio" name="question4" value="service">
-                  Enjoy making a cup of tea or coffee for my partner.
+                  Enjoy making a cup of tea or coffee for my partner.</br>
                 </label>
+                <button type="submit" class ="btn btn-info" id= "sbutton4">Next</button>
               </div>
             </li>
             </div>
-            <br>
-            <button type="submit" class ="btn btn-info" id= "sbutton4">Next</button>
-            <br>
-            <div class="list-group-item">
+            <div id="languageshow5">
             <div class="list-group-item list-group-item-info">
-              <li class="question" id="language5"> I believe
+              <li class="question" id="language5"> 5. I believe
             </div>
-              <div class="radio">
+              <div class="list-group-item">
                 <label>
                   <input type="radio" name="question5" value="wordsofaffirmation">
-                  One should always express themselves in a relationship and let their partner know how and what they are feeling at any given time.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  One should always express themselves in a relationship and let their partner know how and what they are feeling at any given time.</br>
                   <input type="radio" name="question5" value="qualitytime">
-                  When you can't be with the one you love, send them a sweet text or call them to let them know you are thinking of them.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  When you can't be with the one you love, send them a sweet text or call them to let them know you are thinking of them.</br>
                   <input type="radio" name="question5" value="physicaltouch">
-                  Lots of simple hugs, hand-holding, and gentle touches make a relationship exciting.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  Lots of simple hugs, hand-holding, and gentle touches make a relationship exciting.</br>
                   <input type="radio" name="question5" value="receivinggifts">
-                  Giving gifts is not about the most expensive things. It's the thought that counts.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+                  Giving gifts is not about the most expensive things. It's the thought that counts.</br>
                   <input type="radio" name="question5" value="service">
-                  Actions speak louder than words.
+                  Actions speak louder than words.</br>
                 </label>
               </div>
             </li>
             </div>
-            <br>
             <button type="submit" class ="btn btn-info" id="sbutton5">Submit</button>
+          </form>
           </ol>
           <br>
           <ol id="financequestions">
