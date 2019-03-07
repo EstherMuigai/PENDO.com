@@ -269,6 +269,46 @@ ol {
 #kbutton5:hover{
   background-color: black;
 }
+#pbutton1 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 3cm;
+}
+#pbutton1:hover{
+  background-color: black;
+}
+#pbutton2 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 3cm;
+}
+#pbutton2:hover{
+  background-color: black;
+}
+#pbutton3 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 3cm;
+}
+#pbutton3:hover{
+  background-color: black;
+}
+#pbutton4 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 3cm;
+}
+#pbutton4:hover{
+  background-color: black;
+}
+#pbutton5 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 3cm;
+}
+#pbutton5:hover{
+  background-color: black;
+}
 .financeshow3 {
   display: none
 }
@@ -301,4 +341,16 @@ ol {
 }
 .knowyoushow5 {
   display: none
+}
+.personalityshow2 {
+  display: none;
+}
+.personalityshow3 {
+  display: none;
+}
+.personalityshow4 {
+  display: none;
+}
+.personalityshow5 {
+  display: none;
 }

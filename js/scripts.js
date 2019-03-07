@@ -103,3 +103,31 @@ $("button#kbutton4").click(function(){
   $("div.knowyoushow4").hide();
 });
 });
+$("button#pbutton1").click(function(){
+  $("div.personalityshow1").submit(function(event){
+  event.preventDefault();
+  $("div.personalityshow2").show();
+  $("div.personalityshow1").hide();
+});
+});
+$("button#pbutton2").click(function(){
+  $("div.personalityshow2").submit(function(event){
+  event.preventDefault();
+  $("div.personalityshow3").show();
+  $("div.personalityshow2").hide();
+});
+});
+$("button#pbutton3").click(function(){
+  $("div.personalityshow3").submit(function(event){
+  event.preventDefault();
+  $("div.personalityshow4").show();
+  $("div.personalityshow3").hide();
+});
+});
+$("button#pbutton4").click(function(){
+  $("div.personalityshow4").submit(function(event){
+  event.preventDefault();
+  $("div.personalityshow5").show();
+  $("div.personalityshow4").hide();
+});
+});
