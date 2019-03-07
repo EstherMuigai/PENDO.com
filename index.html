@@ -1,904 +1,1251 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
+
 <head>
   <meta charset="utf-8">
   <title>PENDO</title>
-  <<!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
 
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/js/mdb.min.js"></script>
-
-
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/js/mdb.min.js"></script>
 </head>
 
 <body>
-  <div class="container">
-    <h1>PENDO</h1>
-    <!---start page1-->
-    <div id="page1">
-      <form class="" action="index.html" method="post">
-        <div class="form-group">
-          <label for="p1email">Email address</label>
-          <input type="email" class="form-control" placeholder="Enter Email" id="p1email">
-        </div>
-        <div class="form-group">
-          <label for="p1pass">Password</label>
-          <input type="password" class="form-control" placeholder="Enter password" id="p1pass">
-        </div>
-        <button type="submit" id="btnsub1" class="btn btn-success">Sign up</button>
-      </form>
-      <div class="signupArea">
-        <h2>Sign Up</h2>
-        <h3>Create a new account</h3>
-        <form class="">
-          <div class="form-group">
-            <label for="name1">First Name</label>
-            <input type="text" class="form-control" placeholder="First name" id="name1">
-          </div>
-          <div class="form-group">
-            <label for="name2">Middle Name</label>
-            <input type="text" class="form-control" placeholder="Middle name" id="name2">
-          </div>
-          <div class="form-group">
-            <label for="name3">Last Name</label>
-            <input type="text" class="form-control" placeholder="Last name" id="name3">
-          </div>
-          <div class="form-group">
-            <label for="emailfrm2">Email</label>
-            <input type="email" class="form-control" placeholder="Enter Email address" id="emailfrm2">
-          </div>
-          <div class="form-group">
-            <label for="birth">Date of Birth</label>
-            <input type="date" class="form-control" id="birth">
-          </div>
-          <div class="form-group">
-            <label for="">Marital Status</label> <br>
-            <input type="checkbox" class="custom-control-input"> Married <br>
-            <input type="checkbox" class="custom-control-input"> Single <br>
-            <input type="checkbox" class="custom-control-input"> Engaged <br>
-          </div>
-          <div class="form-group">
-            <label for="">Sex</label> <br>
-            <input type="checkbox" class="custom-control-input"> Male <br>
-            <input type="checkbox" class="custom-control-input"> Female <br>
-          </div>
-          <div class="form-group">
-            <label for="passfrm2">Password</label>
-            <input type="password" class="form-control" id="passfrm2">
-          </div>
-          <div class="form-group">
-            <label for="conPass">Confirm Password</label>
-            <input type="password" class="form-control" id="conPass">
-          </div>
-          <button type="submit" class="btn btn-success" id="btnsub2">Submit</button>
-        </form>
-        <p>Already a member? <a href="#">Log in here</a></p>
-      </div>
-    </div>
-    <!---start page2-->
-    <div id="page2">
-      <div class="card-deck">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card cardSet1">
-            <img src="images/indian.jpg" alt="Image representing culture" class="card-img-top img-fluid">
-            <div class="card-body">
-              <h2>Culture and Religion</h2>
-              <div class="card-footer">
-              <button type="submit" class="btn btn-warning btnCard" id="culture">TAKE TEST HERE</button>
-            </div>
-            </div>
-          </div>
-        </div>
-        <br>
-        <div class="col-md-4">
-          <div class="card cardSet2">
-            <img src="images/lovelang.jpg" alt="Image representing love language" class="card-img-top img-fluid">
-            <div class="card-body">
-              <h2>Love Language</h2>
-              <div class="card-footer">
-              <button type="submit" class="btn btn-info btnCard" id="language">TAKE TEST HERE</button>
-            </div>
-            </div>
-          </div>
-        </div>
-        <br>
-        <div class="col-md-4">
-          <div class="card cardSet3">
-            <img src="images/piggy.jpg" alt="Pink piggy bank" class="card-img-top img-fluid">
-            <div class="card-body">
-              <h2>Finances</h2>
-              <div class="card-footer">
-              <button type="submit" class="btn btn-danger btnCard" id="finance">TAKE TEST HERE</button>
-            </div>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br>
-      <div class="card-deck">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card cardSet4">
-            <img src="images/par.jpg" alt="Parenting image" class="card-img-top img-fluid">
-            <div class="card-body">
-              <h2>Temperament and <br> Parenting Style</h2>
-              <div class="card-footer">
-              <button type="submit" class="btn btn-warning btnCard" id="temperament">TAKE TEST HERE</button>
-            </div>
-            </div>
-          </div>
-        </div>
-        <br>
-        <div class="col-md-4">
-          <div class="card cardSet5">
-            <img src="images/parenting.jpg" alt="Parsonal connection image" class="card-img-top img-fluid">
-            <div class="card-body">
-              <h2>How well do you know each other</h2>
-              <div class="card-footer">
-              <button type="submit" class="btn btn-info btnCard" id="know">TAKE TEST HERE</button>
-            </div>
-            </div>
-          </div>
-        </div>
-        <br>
-        <div class="col-md-4">
-          <div class="card cardSet6">
-            <img src="images/perso.jpg" alt="Personality image" class="card-img-top img-fluid">
-            <div class="card-body">
-              <h2>Personality</h2>
-              <div class="card-footer">
-              <button type="submit" class="btn btn-danger btnCard" id="personality">TAKE TEST HERE</button>
-            </div>
-          </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br>
-      <form id="partner2">
-        <div class="form-group">
-          <label for="partner2">Who would you like to take the test with?</label>
-          <input type="partner2name" class="form-control" type="text">
-        </div>
-        <button type="submit" class="btn btn-success" id=user2>Submit</button>
-      </form>
-    </div>
-    <br>
-    <!---start page3-->
-    <div id="page3">
+  <div id="introduction">
+    <!-- Log in popup -->
+    <div class="d-flex flex-row bd-highlight">
 
-    </div>
-    <!---start page4-->
-    <div id="page4">
-      <ol id="culturequestions">
-        <ol id="culturequestions">
-          <h5>Culture, Religion and Family Background</h5>
-          <li class="question" id="culture1"> Which of the following best describes your family structure?
-            <div class="radio">
-              <label>Single Parent</br>
-                <input type="radio" name="family" value="single">Mother</br>
-                <input type="radio" name="family" value="single">Father</br>
-                <div class="row">
-                  <label class="radio-inline">Cause</br>
-                    <input type="radio" name="cause" value="divorce">Divorce</br>
-                    <input type="radio" name="cause" value="seperation">Separation</br>
-                    <input type="radio" name="cause" value="death">Death</br>
-                    <input type="radio" name="cause" value="unknown">Unknown</br>
-                    <input type="radio" name="cause" value="complicated">It's Complicated</br>
-                  </label>
+      <div class="p-2 bd-highlight mr-auto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHLAEsibqaT0pQT6m2XDmq0eAJm99UtAMmyMwxVI1XXvx1OwWv" width="60" height="60" alt="profile icon">
+      </div>
+
+      <div class="p-2 bd-highlight ml-auto">
+        <button type="button" class="btn btn-info btn-outline-default" data-toggle="modal" data-target="#basicExampleModal">Log In<i class="fas fa-heart ml-2" aria-hidden="true"></i></button>
+
+        <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+          <div class="modal-dialog" role="document">
+
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Get Started</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Create a new account</h6>
+                <div class="d-flex flex-row bd-highlight" style="font-size: 2rem;">
+                  <div><i class="fab fa-facebook-f fa-fw blue-text p-2 bd-highlight"></i></div>
+                  <div><i class="fab fa-twitter fa-fw blue-text p-2 bd-highlight"></i></div>
+                  <div><i class="fab fa-instagram fa-fw pink-text p-2 bd-highlight"></i></div>
+                  <div><i class="fab fa-linkedin fa-fw blue-text p-2 bd-highlight"></i></div>
+                  <div><i class="fab fa-pinterest fa-fw red-text p-2 bd-highlight"></i></div>
+
                 </div>
-              </label>
-            </div>
-            <div class="radio">
-              <label>Both Parents</br>
-                <input type="radio" name="both" value="stable">Stable</br>
-                <input type="radio" name="both" value="strained">Strained</br>
-                <input type="radio" name="both" value="on&off">On and Off</br>
-              </label>
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="family" value="polygamous">
-                Polygamous
-              </label>
-            </div>
-          </li>
-          <li class="question" id="culture2"> Which of the following best describes your religious beliefs?
-            <div class="radio">
-              <label>
-                <input type="radio" name="religion" value="christian">Christian</br>
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="religion" value="muslim">Islam</br>
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="religion" value="none">Non-religious/Secular/Agnostic/Atheist</br>
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="religion" value="hinduism">Hinduism</br>
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="religion" value="chinese">Chinese Traditional Language</br>
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="religion" value="buddhism">Buddhism</br>
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="religion" value="Indigenous">Indeginous</br>
-              </label>
-            </div>
-          </li>
-          <li class="question" id="culture4"> Which ethnic group do you belong to?</br>
-            <div class="radio">
-              <label>
-                <input type="textarea" name="ethnicity" placeholder="type here"></br>
-              </label></br>
-              <label class="radio-inline">On a scale of 1-5, how does that influnce your choices?</br>
-                <input type="radio" name="scale" value="1">1
-                <input type="radio" name="scale" value="2">2
-                <input type="radio" name="scale" value="3">3
-                <input type="radio" name="scale" value="4">4
-                <input type="radio" name="scale" value="5">5
-              </label>
-            </div>
-          </li>
-          <li class="question" id="culture5"> Which statement is true for you?
-            <div class="radio">
-              <label>
-                <input type="radio" name="background" value="pAbuse">I experienced extreme physical abuse growing up
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="background" value="eAbuse">I experienced extreme emotional abuse growing up
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="background" value="lpAbuse">I experienced mild physical abuse as a child
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="background" value="leAbuse">I experienced mild emotional abuse as a child
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="background" value="noAbuse">I experienced no abuse growing up
-              </label>
-            </div>
-          </li>
+                <form class="" action="index.html" method="post">
+                  <div class="form-group">
+                    <label for="p1email">Email address</label>
+                    <input type="email" class="form-control" placeholder="Enter Email" id="p1email">
+                  </div>
+                  <div class="form-group">
+                    <label for="p1pass">Password</label>
+                    <input type="password" class="form-control" placeholder="Enter password" id="p1pass">
+                  </div>
+                </form>
+              </div>
 
+              <div class="modal-footer">
+                <button type="button" class="btn btn-info btn-outline-default ">Log In<i class="fas fa-heart ml-2" aria-hidden="true"></i></button>
 
+              </div>
 
+            </div>
+          </div>
+        </div>
 
+      </div>
 
-        </ol>
-        <ol id="lovelanguagequestions">
-          <h5>Love Language</h5>
-          <li class="question" id="question1"> Inside which HTML element do we put the JavaScript?
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="script">
-                script
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="js">
-                js
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="scripting">
-                scripting
-              </label>
-          </li>
-
-          <li class="question" id="question2">What is the correct JavaScript syntax to change the content of a HTML element.
-            <div class="radio">
-              <label>
-                <input type="radio" name="question2" value="innerHtml">
-                #element.innerHtml="string"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question2" value="document.getelement(#element).innerHtml=" String"">
-                document.getelement(#element).innerHtml="String"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question2" value="document.getelement(element).innerHtml=" String"">
-                document.getelement(element).innerHtml="String"
-              </label>
-          </li>
-          <li class="question" id="question3">What is the correct JavaScript syntax to change the content of a HTML element.
-            <div class="radio">
-              <label>
-                <input type="radio" name="question3" value="innerHtml">
-                #element.innerHtml="string"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question3" value="document.getelement(#element).innerHtml=" String"">
-                document.getelement(#element).innerHtml="String"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question3" value="document.getelement(element).innerHtml=" String"">
-                document.getelement(element).innerHtml="String"
-              </label>
-          </li>
-          <li class="question" id="question4">What is the correct JavaScript syntax to change the content of a HTML element.
-            <div class="radio">
-              <label>
-                <input type="radio" name="question4" value="innerHtml">
-                #element.innerHtml="string"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question4" value="document.getelement(#element).innerHtml=" String"">
-                document.getelement(#element).innerHtml="String"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question4" value="document.getelement(element).innerHtml=" String"">
-                document.getelement(element).innerHtml="String"
-              </label>
-          </li>
-          <li class="question" id="question5">What is the correct JavaScript syntax to change the content of a HTML element.
-            <div class="radio">
-              <label>
-                <input type="radio" name="question5" value="innerHtml">
-                #element.innerHtml="string"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question5" value="document.getelement(#element).innerHtml=" String"">
-                document.getelement(#element).innerHtml="String"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question5" value="document.getelement(element).innerHtml=" String"">
-                document.getelement(element).innerHtml="String"
-              </label>
-          </li>
-
-
-
-
-        </ol>
-        <ol id="financequestions">
-          <h5>Finance</h5>
-          <li class="question" id="question1"> Inside which HTML element do we put the JavaScript?
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="script">
-                script
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="js">
-                js
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="scripting">
-                scripting
-              </label>
-          </li>
-
-          <li class="question" id="question2">What is the correct JavaScript syntax to change the content of a HTML element.
-            <div class="radio">
-              <label>
-                <input type="radio" name="question2" value="innerHtml">
-                #element.innerHtml="string"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question2" value="document.getelement(#element).innerHtml=" String"">
-                document.getelement(#element).innerHtml="String"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question2" value="document.getelement(element).innerHtml=" String"">
-                document.getelement(element).innerHtml="String"
-              </label>
-          </li>
-          <li class="question" id="question3">What is the correct JavaScript syntax to change the content of a HTML element.
-            <div class="radio">
-              <label>
-                <input type="radio" name="question3" value="innerHtml">
-                #element.innerHtml="string"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question3" value="document.getelement(#element).innerHtml=" String"">
-                document.getelement(#element).innerHtml="String"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question3" value="document.getelement(element).innerHtml=" String"">
-                document.getelement(element).innerHtml="String"
-              </label>
-          </li>
-          <li class="question" id="question4">What is the correct JavaScript syntax to change the content of a HTML element.
-            <div class="radio">
-              <label>
-                <input type="radio" name="question4" value="innerHtml">
-                #element.innerHtml="string"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question4" value="document.getelement(#element).innerHtml=" String"">
-                document.getelement(#element).innerHtml="String"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question4" value="document.getelement(element).innerHtml=" String"">
-                document.getelement(element).innerHtml="String"
-              </label>
-          </li>
-          <li class="question" id="question5">What is the correct JavaScript syntax to change the content of a HTML element.
-            <div class="radio">
-              <label>
-                <input type="radio" name="question5" value="innerHtml">
-                #element.innerHtml="string"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question5" value="document.getelement(#element).innerHtml=" String"">
-                document.getelement(#element).innerHtml="String"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question5" value="document.getelement(element).innerHtml=" String"">
-                document.getelement(element).innerHtml="String"
-              </label>
-          </li>
-
-
-
-
-        </ol>
-        <ol id="temperamentquestions">
-          <h5>Temperament</h5>
-          <li class="question" id="temperament1"> Which stamement best describes your overall mood normally?
-            <div class="radio">
-              <label>
-                <input type="radio" name="temperament1" value="sanguine">
-                Fun-loving, happy, in a good mood generally, ready to smile or laugh
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="temperament1" value="melancholic">
-                I tend to be moody,I get carried away by sad events,happy moods are short-lived.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="temperament1" value="phlegmatic">
-                I'm generally calm and quiet, quite relaxed and generally neutral.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="temperament1" value="choleric">
-                I'm mostly serious, focused on my plans/agenda, I couldn't really describe my general mood.
-              </label>
-            </div>
-          </li>
-          <li class="question" id="temperament2"> Which stamement best describes your social nature?
-            <div class="radio">
-              <label>
-                <input type="radio" name="temperament2" value="sanguine">
-                I am social, always starting or joining in converations. I value social connection.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="temperament2" value="melancholic">
-                I'm a loner, I enjoy being in my own space occupied with my thoughts and ideas.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="temperament2" value="phlegmatic">
-                I tend to observe a lot, I easily make friends but I don't mind just being in the background.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="temperament2" value="choleric">
-                When in a group, I take charge of the situation, offering a plan or way forward.
-              </label>
-            </div>
-          </li>
-          <li class="question" id="temperament3"> Which of the following best describes you in the work environment?
-            <div class="radio">
-              <label>
-                <input type="radio" value="sanguine" name="temperament3">
-                I love new exciting projects especially those that require collaboration and team work. I find routine to be boring.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" value="melancholic" name="temperament3">
-                I enjoy creating, working diligently towards perfection. I don't like being distracted from this.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" value="phlegmatic" name="temperament3">
-                I do what needs to be done, sticking to a job description/workflow as outlined. I have a hard time switching it up.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" value="choleric" name="temperament3">
-                I enjoy working towards set goals. I tend to lead most groups I am in. I am very focused towards what I am working on.
-              </label>
-            </div>
-          </li>
-          <li class="question" id="temperament4"> Which stament best describes the trait that you are guilty of?
-            <div class="radio">
-              <label>
-                <input type="radio" value="sanguine" name="temperament4">
-                I can tend to be impulsive, I commit to plans/projects then end up not completing or achieving all of them. I'm also very talkative.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" value="melancholic" name="temperament4">
-                My moodines often affects how I relate with others. On some days I react more emotionally than is warranted.This later makes me sad and withdrawan.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" value="phlegmatic" name="temperament4">
-                I can be quite sacarstic. I tend to act like I am accepting of an idea/plan just so that I don't stand out but I know in the end I will not act in line with the said goal/plan unless I have to.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" value="choleric" name="temperament4">
-                I am impatient with people who are slow,lazy or unfocused.It really gets to me. I also prefer doing things my own way hence I dominate my environment which can at times come off as being rude.
-              </label>
-            </div>
-          </li>
-          <li class="question" id="temperament5"> What comment resonates with what most people say about you or tell you?
-            <div class="radio">
-              <label>
-                <input type="radio" value="sanguine" name="temperament5">
-                "You are always the life of the party!" / "How are you so happy/energized right now?"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" value="melancholic" name="temperament5">
-                "Are you okay?" / "You should try and cheer up" "
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" value="phlegmatic" name="temperament5">
-                "You're such a good friend" / "You look so calm" / "You haven't been participating in the talk/forum/group"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" value="choleric" name="temperament5">
-                "Could you give me tips/advice on something" / "You are a great leader" / "I knew you are the right person to call, I need your help"
-              </label>
-            </div>
-          </li>
-
-
-
-        </ol>
-        <ol id="knowquestions">
-          <h5>How well do you know each other?</h5>
-          <li class="question" id="knowyou1"> Best idea of a date/activity/plan....
-            <div class="radio">
-              <label>
-                <input type="radio" name="date1" value="1">
-                Going out for a social activity such as a meetup/hangout.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="date1" value="2">
-                Cuddling or cosying up in the house and focusing on each other.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="date1" value="3">
-                Doing seperate activities within the same place i.e reading a book or working
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="date1" value="4">
-                Going out to a fancy joint to have a romantic lunch/dinner date
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="date1" value="5">
-                Adrenaline junkie. Something exciting and adventorous such as rock cklimbing or ziplining.
-              </label>
-            </div>
-          </li>
-          <li class="question" id="knowyou2"> Which kind of movies/series...
-            <div class="radio">
-              <label>
-                <input type="radio" name="movie2" value="1">
-                Drama
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="movie2" value="2">
-                Romantic comedies
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="movie2" value="3">
-                SCI-FI
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="movie2" value="4">
-                Action/War
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="movie2" value="5">
-                Horror
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="movie2" value="6">
-                Not a fan of movies/series
-              </label>
-            </div>
-          </li>
-          <li class="question" id="knowyou3"> Birthday...
-            <div class="form-group">
-              <label for="born">Date of birth:</label>
-              <input id="born" class="form-control" name="dob" type="date">
-            </div>
-          </li>
-          <li class="question" id="knowyou4"> Love language....
-            <div class="radio">
-              <label>
-                <input type="radio" name="love4" value="1">
-                Gifts are the best way someone can show they love me and that they're thinking about me
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="love4" value="2">
-                Lets have some speial time just for the two of us to talk or do something together
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="love4" value="3">
-                Lets cuddle, kiss and keep contact. That expresses just how much you love me.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="love4" value="4">
-                Helping me out with chores, errands and lending out a hand when I have a lot of workload makes me feel loved.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="love4" value="5">
-                Absolutely love it when I'm complimented on how I look/talk,behave. It makes me feel special and loved.
-              </label>
-            </div>
-          </li>
-          <li class="question" id="knowyou5"> How many children...
-            <div class="radio">
-              <label>
-                <input list="children">
-                <datalist id="children">
-                  <option value="1">
-                  <option value="2">
-                  <option value="3">
-                  <option value="4">
-                  <option value="5">
-                  <option value="6">
-                  <option value="7">
-                  <option value="8">
-                  <option value="9">
-                  <option value="10">
-                  <option value="more than 10">
-                </datalist>
-              </label>
-            </div>
-          </li>
-
-
-        </ol>
-        <ol id="personalityquestions">
-          <h5>Personality</h5>
-          <li class="question" id="question1"> Inside which HTML element do we put the JavaScript?
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="script">
-                script
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="js">
-                js
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="scripting">
-                scripting
-              </label>
-          </li>
-
-          <li class="question" id="question2">What is the correct JavaScript syntax to change the content of a HTML element.
-            <div class="radio">
-              <label>
-                <input type="radio" name="question2" value="innerHtml">
-                #element.innerHtml="string"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question2" value="document.getelement(#element).innerHtml=" String"">
-                document.getelement(#element).innerHtml="String"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question2" value="document.getelement(element).innerHtml=" String"">
-                document.getelement(element).innerHtml="String"
-              </label>
-          </li>
-          <li class="question" id="question3">What is the correct JavaScript syntax to change the content of a HTML element.
-            <div class="radio">
-              <label>
-                <input type="radio" name="question3" value="innerHtml">
-                #element.innerHtml="string"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question3" value="document.getelement(#element).innerHtml=" String"">
-                document.getelement(#element).innerHtml="String"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question3" value="document.getelement(element).innerHtml=" String"">
-                document.getelement(element).innerHtml="String"
-              </label>
-          </li>
-          <li class="question" id="question4">What is the correct JavaScript syntax to change the content of a HTML element.
-            <div class="radio">
-              <label>
-                <input type="radio" name="question4" value="innerHtml">
-                #element.innerHtml="string"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question4" value="document.getelement(#element).innerHtml=" String"">
-                document.getelement(#element).innerHtml="String"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question4" value="document.getelement(element).innerHtml=" String"">
-                document.getelement(element).innerHtml="String"
-              </label>
-          </li>
-          <li class="question" id="question5">What is the correct JavaScript syntax to change the content of a HTML element.
-            <div class="radio">
-              <label>
-                <input type="radio" name="question5" value="innerHtml">
-                #element.innerHtml="string"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question5" value="document.getelement(#element).innerHtml=" String"">
-                document.getelement(#element).innerHtml="String"
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question5" value="document.getelement(element).innerHtml=" String"">
-                document.getelement(element).innerHtml="String"
-              </label>
-          </li>
-
-
-
-
-        </ol>
     </div>
-    <!---start page5-->
-    <div id="page5">
-      <h5>Compatibility Results</h5>
-      <p>Overall Results:</p>
-      <ul>
-        <li>Culture and Religion:</li>
-        <li>Love Language:</li>
-        <li>Finances:</li>
-        <li>Temperament and Parenting Style:</li>
-        <li>How well do you know each other:</li>
-        <li>Personality</li>
-      </ul>
-      <button type="submit" class="btn btn-warning" id="back">Go Back!</button>
+    <!-- Sign up popup -->
+    <div>
+      <h1>What is Lorem Ipsum?</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+        recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+        recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <div class="d-flex ml-auto mt-4">
+        <button type="button" class="btn btn-info btn-outline-default" data-toggle="modal" data-target="#signupmodal">Sign Up<i class="fas fa-heart ml-2" aria-hidden="true"></i></button>
+
+        <div class="modal fade" id="signupmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+          <div class="modal-dialog" role="document">
+
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Get Started</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="signupArea">
+                  <h6>Create a new account</h6>
+                  <div class="d-flex flex-row bd-highlight" style="font-size: 2rem;">
+                    <div><i class="fab fa-facebook-f fa-fw blue-text p-2 bd-highlight"></i></div>
+                    <div><i class="fab fa-twitter fa-fw blue-text p-2 bd-highlight"></i></div>
+                    <div><i class="fab fa-instagram fa-fw pink-text p-2 bd-highlight"></i></div>
+                    <div><i class="fab fa-linkedin fa-fw blue-text p-2 bd-highlight"></i></div>
+                    <div><i class="fab fa-pinterest fa-fw red-text p-2 bd-highlight"></i></div>
+
+                  </div>
+                  <form class="">
+                    <div class="form-group">
+                      <label for="name1">First Name</label>
+                      <input type="text" class="form-control" placeholder="First name" id="name1">
+                    </div>
+                    <div class="form-group">
+                      <label for="name2">Middle Name</label>
+                      <input type="text" class="form-control" placeholder="Middle name" id="name2">
+                    </div>
+                    <div class="form-group">
+                      <label for="name3">Last Name</label>
+                      <input type="text" class="form-control" placeholder="Last name" id="name3">
+                    </div>
+                    <div class="form-group">
+                      <label for="emailfrm2">Email</label>
+                      <input type="email" class="form-control" placeholder="Enter Email address" id="emailfrm2">
+                    </div>
+                    <div class="form-group">
+                      <label for="birth">Date of Birth</label>
+                      <input type="date" class="form-control" id="birth">
+                    </div>
+                    <div class="form-group">
+                      <label for="">Marital Status</label> <br>
+                      <input type="checkbox" class="custom-control-input"> Married <br>
+                      <input type="checkbox" class="custom-control-input"> Single <br>
+                      <input type="checkbox" class="custom-control-input"> Engaged <br>
+                    </div>
+                    <div class="form-group">
+                      <label for="">Sex</label> <br>
+                      <input type="checkbox" class="custom-control-input"> Male <br>
+                      <input type="checkbox" class="custom-control-input"> Female <br>
+                    </div>
+                    <div class="form-group">
+                      <label for="passfrm2">Password</label>
+                      <input type="password" class="form-control" id="passfrm2">
+                    </div>
+                    <div class="form-group">
+                      <label for="conPass">Confirm Password</label>
+                      <input type="password" class="form-control" id="conPass">
+                    </div>
+                  </form>
+                  <p>Already a member? <a href="#">Log in here</a></p>
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-info btn-outline-default ">Sign Up<i class="fas fa-heart ml-2" aria-hidden="true"></i></button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
 
   </div>
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <nav class="collapse bg-dark" id="sidebar">
+      <div class="sidebar-header">
+        <h3>Bootstrap Sidebar</h3>
+      </div>
 
+      <ul class="list-unstyled components">
+        <p>Dummy Heading</p>
+        <li class="active">
+          <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+          <ul class="collapse list-unstyled" id="homeSubmenu">
+            <li>
+              <a href="#">Home 1</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+              <ul class="collapse list-unstyled" id="pageSubmenu">
+                <li>
+                  <a href="#">Page 1</a>
+                </li>
+                <li>
+                  <a href="#">Page 2</a>
+                </li>
+                <li>
+                  <a href="#">Page 3</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Portfolio</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+    </nav>
+
+    <div class="container-fluid" id="content">
+      <div class="d-flex flex-row bd-highlight">
+        <div class="p-2 bd-highlight">
+          <nav class="navbar navbar-light bg-light mt-4">
+            <form class="form-inline">
+              <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </nav>
+        </div>
+
+
+        <div class="p-2 bd-highlight mx-auto">
+          <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+              <img src="images/pendo1.png" width="250" height="70" alt="">
+            </a>
+          </nav>
+
+
+          </nav>
+        </div>
+        <div class="p-2 bd-highlight mt-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHLAEsibqaT0pQT6m2XDmq0eAJm99UtAMmyMwxVI1XXvx1OwWv" width="60" height="60" alt="profile icon">
+        </div>
+
+      </div>
+      <div class="pos-f-t">
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" id="sidebarCollapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
+
+      <!---start page1-->
+
+      <!---start page2-->
+      <div id="page2">
+        <div class="card-deck">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card cardSet1">
+              <img src="images/indian.jpg" alt="Image representing culture" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h2>Culture and Religion</h2>
+                <div class="card-footer">
+                <button type="submit" class="btn btn-warning btnCard" id="culture">TAKE TEST HERE</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="col-md-4">
+            <div class="card cardSet2">
+              <img src="images/lovelang.jpg" alt="Image representing love language" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h2>Love Language</h2>
+                <div class="card-footer">
+                <button type="submit" class="btn btn-info btnCard" id="language">TAKE TEST HERE</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="col-md-4">
+            <div class="card cardSet3">
+              <img src="images/piggy.jpg" alt="Pink piggy bank" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h2>Finances</h2>
+                <div class="card-footer">
+                <button type="submit" class="btn btn-danger btnCard" id="finance">TAKE TEST HERE</button>
+              </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="card-deck">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card cardSet4">
+              <img src="images/par.jpg" alt="Parenting image" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h2>Temperament and <br> Parenting Style</h2>
+                <div class="card-footer">
+                <button type="submit" class="btn btn-warning btnCard" id="temperament">TAKE TEST HERE</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="col-md-4">
+            <div class="card cardSet5">
+              <img src="images/parenting.jpg" alt="Parsonal connection image" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h2>How well do you know each other</h2>
+                <div class="card-footer">
+                <button type="submit" class="btn btn-info btnCard" id="know">TAKE TEST HERE</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="col-md-4">
+            <div class="card cardSet6">
+              <img src="images/perso.jpg" alt="Personality image" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h2>Personality</h2>
+                <div class="card-footer">
+                <button type="submit" class="btn btn-danger btnCard" id="personality">Personality</button>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <form id="partner2">
+          <div class="form-group">
+            <label for="partner2">Who would you like to take the test with?</label>
+            <input type="partner2name" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn btn-success" id=user2>Submit</button>
+        </form>
+      </div>
+      <!---start page3-->
+      <div id="page3">
+
+      </div>
+      <!---start page4-->
+      <div id="page4">
+          <ol id="culturequestions">
+            <h5>Culture, Religion and Family Background</h5>
+            <li class="question" id="culture1"> Which of the following best describes your family structure?
+              <div class="radio">
+                <label>Single Parent</br>
+                  <input type="radio" name="family" value="single">Mother</br>
+                  <input type="radio" name="family" value="single">Father</br>
+                  <div class="row">
+                    <label class="radio-inline">Cause</br>
+                      <input type="radio" name="cause" value="divorce">Divorce</br>
+                      <input type="radio" name="cause" value="seperation">Separation</br>
+                      <input type="radio" name="cause" value="death">Death</br>
+                      <input type="radio" name="cause" value="unknown">Unknown</br>
+                      <input type="radio" name="cause" value="complicated">It's Complicated</br>
+                    </label>
+                  </div>
+                </label>
+              </div>
+              <div class="radio">
+                <label>Both Parents</br>
+                  <input type="radio" name="both" value="stable">Stable</br>
+                  <input type="radio" name="both" value="strained">Strained</br>
+                  <input type="radio" name="both" value="on&off">On and Off</br>
+                </label>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="family" value="polygamous">
+                  Polygamous
+                </label>
+              </div>
+            </li>
+            <li class="question" id="culture2"> Which of the following best describes your religious beliefs?
+              <div class="radio">
+                <label>
+                  <input type="radio" name="religion" value="christian">Christian</br>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="religion" value="muslim">Islam</br>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="religion" value="none">Non-religious/Secular/Agnostic/Atheist</br>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="religion" value="hinduism">Hinduism</br>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="religion" value="chinese">Chinese Traditional Language</br>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="religion" value="buddhism">Buddhism</br>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="religion" value="Indigenous">Indeginous</br>
+                </label>
+              </div>
+            </li>
+            <li class="question" id="culture4"> Which ethnic group do you belong to?</br>
+              <div class="radio">
+                <label>
+                  <input type="textarea" name="ethnicity" placeholder="type here"></br>
+                </label></br>
+                <label class="radio-inline">On a scale of 1-5, how does that influnce your choices?</br>
+                  <input type="radio" name="scale" value="1">1
+                  <input type="radio" name="scale" value="2">2
+                  <input type="radio" name="scale" value="3">3
+                  <input type="radio" name="scale" value="4">4
+                  <input type="radio" name="scale" value="5">5
+                </label>
+              </div>
+            </li>
+            <li class="question" id="culture5"> Which statement is true for you?
+              <div class="radio">
+                <label>
+                  <input type="radio" name="background" value="pAbuse">I experienced extreme physical abuse growing up
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="background" value="eAbuse">I experienced extreme emotional abuse growing up
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="background" value="lpAbuse">I experienced mild physical abuse as a child
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="background" value="leAbuse">I experienced mild emotional abuse as a child
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="background" value="noAbuse">I experienced no abuse growing up
+                </label>
+              </div>
+            </li>
+
+
+
+
+
+          </ol>
+          <ol id="lovelanguagequestions">
+            <h5>Love Language</h5>
+            <li class="question" id="language1"> Which one best describes you?
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="wordsofaffirmation">
+                  I always compliment my partner, use kind words, appreciate them and extend to them a listening ear.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="qualitytime">
+                  I like spending quality time with my partner and giving them undivided attention.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="physicaltouch">
+                  I enjoy hugs, holding hands, gentle touches and physical contact.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="receivinggifts">
+                  I like giving my partner small gifts.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="service">
+                  I like being of assistance to my partner and fulfilling their wishes when they need help with something.
+                </label>
+              </div>
+            </li>
+
+            <li class="question" id="language2"> I don't like it when
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="wordsofaffirmation">
+                  My partner assumes that I know that he/she loves me.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="qualitytime">
+                  I talk to my partner and they are constantly distracted by their phones.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="physicaltouch">
+                  My partner and I watch movies while seating far away from each other.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="receivinggifts">
+                  My partner forgets special occasions.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="service">
+                  My partner makes someone else’s to-do’s more important than mine.
+                </label>
+              </div>
+            </li>
+
+            <li class="question" id="language3"> I am always looking forward to
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="wordsofaffirmation">
+                  Sweet texts, special notes or love letters from my partner.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="qualitytime">
+                  Spending time with my partner even if it's running errands.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="physicaltouch">
+                  Non-verbal body language to emphasize our affection towards each other.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="receivinggifts">
+                  Giving thoughtful gifts to my partner on special occasions.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="service">
+                  Completing house chores together.
+                </label>
+              </div>
+            </li>
+
+            <li class="question" id="language4"> I am the kind of person who would
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="wordsofaffirmation">
+                  Tell their partner "There's no one else I would rather be with right now!"
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="qualitytime">
+                  Make datenight a weekly event and add it to the calender.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="physicaltouch">
+                  Sqeeze my partner's hand at an inside joke we both share.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="receivinggifts">
+                  Surprise my partner occasionally with gifts every time I come home from a vacation /trip.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="service">
+                  Enjoy making a cup of tea or coffee for my partner.
+                </label>
+              </div>
+            </li>
+
+            <li class="question" id="language5"> I believe
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="wordsofaffirmation">
+                  One should always express themselves in a relationship and let their partner know how and what they are feeling at any given time.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="qualitytime">
+                  When you can't be with the one you love, send them a sweet text or call them to let them know you are thinking of them.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="physicaltouch">
+                  Lots of simple hugs, hand-holding, and gentle touches make a relationship exciting.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="receivinggifts">
+                  Giving gifts is not about the most expensive things. It's the thought that counts.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="service">
+                  Actions speak louder than words.
+                </label>
+              </div>
+            </li>
+          </ol>
+          <ol id="financequestions">
+            <h5>Finance</h5>
+            <li class="question" id="finance1"> Which one do you identify the most with?
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="saver">
+                  I love saving money and finding bargains.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="spender">
+                  I love spending money either on myself or on others.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="securityseeker">
+                  I like saving money with the main goal being to make sure that I have a safety net in case of a financial bump in the road.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="risktaker">
+                  I am not afraid of putting my money in high risk investments since they tend to have big payoffs.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="avoider">
+                  I prefer to stay off any topics related to money, whether it is saving, spending or investing
+                </label>
+              </div>
+            </li>
+            <li class="question" id="finance2"> People often call me
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="saver">
+                  Cheap.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="spender">
+                  A spend-thrift.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="securityseeker">
+                  A financial planner.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="risktaker">
+                  Risk taker.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="avoider">
+                  Unprepared.
+                </label>
+              </div>
+            </li>
+            <li class="question" id="finance3"> Choose one that you can relate with
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="saver">
+                  I often talk to my family and friends on the importance of saving money.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="spender">
+                  Spending is a thrill for me and it does not matter what am spending on, buying is buying.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="securityseeker">
+                  I consider myself an entrepreneur or a visionary.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="risktaker">
+                  Financial planning gives me a sense of security feeling that I need.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="avoider">
+                  I hardly monitor my bank accounts and do not use budgets
+                </label>
+              </div>
+            </li>
+            <li class="question" id="finance4"> An issue I am familiar with is
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="saver">
+                  I have had relationship issues and awkwardness with friends and family due to my lack of spending on certain things.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="spender">
+                  I have found myself spending every penny I own on things I do not neccessarily need.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="securityseeker">
+                  I have been in situations where I have saved everything and have no extra money to spend on fun activities.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="risktaker">
+                  I have been on the verge of bankruptcy after risking all my money in an investment that did not pay off.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="avoider">
+                  I have been caught unaware a couple of times by expenses that I did not expect at a time when I do not have money.
+                </label>
+              </div>
+            </li>
+            <li class="question" id="finance5"> Sometimes I think I should
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="saver">
+                  Volunteer to pay bills more often when I go out with family or friends
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="spender">
+                  Work to find a balance and save money for emergencies and for retirement instead of spending every penny that I earn.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="securityseeker">
+                  Extend some of my savings to having some fun and understand that it is okay to do so at times.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="risktaker">
+                  Learn to diversify my investments and not put all my eggs in one basket.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="avoider">
+                  Set up a standing order into savings from every paycheck. That way, it’s easy to save once it’s set up.
+                </label>
+              </div>
+            </li>
+          </ol>
+          <ol id="temperamentquestions">
+            <h5>Temperament</h5>
+            <li class="question" id="temperament1"> Which stamement best describes your overall mood normally?
+              <div class="radio">
+                <label>
+                  <input type="radio" name="temperament1" value="sanguine">
+                  Fun-loving, happy, in a good mood generally, ready to smile or laugh
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="temperament1" value="melancholic">
+                  I tend to be moody,I get carried away by sad events,happy moods are short-lived.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="temperament1" value="phlegmatic">
+                  I'm generally calm and quiet, quite relaxed and generally neutral.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="temperament1" value="choleric">
+                  I'm mostly serious, focused on my plans/agenda, I couldn't really describe my general mood.
+                </label>
+              </div>
+            </li>
+            <li class="question" id="temperament2"> Which stamement best describes your social nature?
+              <div class="radio">
+                <label>
+                  <input type="radio" name="temperament2" value="sanguine">
+                  I am social, always starting or joining in converations. I value social connection.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="temperament2" value="melancholic">
+                  I'm a loner, I enjoy being in my own space occupied with my thoughts and ideas.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="temperament2" value="phlegmatic">
+                  I tend to observe a lot, I easily make friends but I don't mind just being in the background.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="temperament2" value="choleric">
+                  When in a group, I take charge of the situation, offering a plan or way forward.
+                </label>
+              </div>
+            </li>
+            <li class="question" id="temperament3"> Which of the following best describes you in the work environment?
+              <div class="radio">
+                <label>
+                  <input type="radio" value="sanguine" name="temperament3">
+                  I love new exciting projects especially those that require collaboration and team work. I find routine to be boring.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" value="melancholic" name="temperament3">
+                  I enjoy creating, working diligently towards perfection. I don't like being distracted from this.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" value="phlegmatic" name="temperament3">
+                  I do what needs to be done, sticking to a job description/workflow as outlined. I have a hard time switching it up.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" value="choleric" name="temperament3">
+                  I enjoy working towards set goals. I tend to lead most groups I am in. I am very focused towards what I am working on.
+                </label>
+              </div>
+            </li>
+            <li class="question" id="temperament4"> Which stament best describes the trait that you are guilty of?
+              <div class="radio">
+                <label>
+                  <input type="radio" value="sanguine" name="temperament4">
+                  I can tend to be impulsive, I commit to plans/projects then end up not completing or achieving all of them. I'm also very talkative.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" value="melancholic" name="temperament4">
+                  My moodines often affects how I relate with others. On some days I react more emotionally than is warranted.This later makes me sad and withdrawan.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" value="phlegmatic" name="temperament4">
+                  I can be quite sacarstic. I tend to act like I am accepting of an idea/plan just so that I don't stand out but I know in the end I will not act in line with the said goal/plan unless I have to.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" value="choleric" name="temperament4">
+                  I am impatient with people who are slow,lazy or unfocused.It really gets to me. I also prefer doing things my own way hence I dominate my environment which can at times come off as being rude.
+                </label>
+              </div>
+            </li>
+            <li class="question" id="temperament5"> What comment resonates with what most people say about you or tell you?
+              <div class="radio">
+                <label>
+                  <input type="radio" value="sanguine" name="temperament5">
+                  "You are always the life of the party!" / "How are you so happy/energized right now?"
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" value="melancholic" name="temperament5">
+                  "Are you okay?" / "You should try and cheer up" "
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" value="phlegmatic" name="temperament5">
+                  "You're such a good friend" / "You look so calm" / "You haven't been participating in the talk/forum/group"
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" value="choleric" name="temperament5">
+                  "Could you give me tips/advice on something" / "You are a great leader" / "I knew you are the right person to call, I need your help"
+                </label>
+              </div>
+            </li>
+
+
+
+          </ol>
+          <ol id="knowquestions">
+            <h5>How well do you know each other?</h5>
+            <li class="question" id="knowyou1"> Best idea of a date/activity/plan....
+              <div class="radio">
+                <label>
+                  <input type="radio" name="date1" value="1">
+                  Going out for a social activity such as a meetup/hangout.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="date1" value="2">
+                  Cuddling or cosying up in the house and focusing on each other.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="date1" value="3">
+                  Doing seperate activities within the same place i.e reading a book or working
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="date1" value="4">
+                  Going out to a fancy joint to have a romantic lunch/dinner date
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="date1" value="5">
+                  Adrenaline junkie. Something exciting and adventorous such as rock cklimbing or ziplining.
+                </label>
+              </div>
+            </li>
+            <li class="question" id="knowyou2"> Which kind of movies/series...
+              <div class="radio">
+                <label>
+                  <input type="radio" name="movie2" value="1">
+                  Drama
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="movie2" value="2">
+                  Romantic comedies
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="movie2" value="3">
+                  SCI-FI
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="movie2" value="4">
+                  Action/War
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="movie2" value="5">
+                  Horror
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="movie2" value="6">
+                  Not a fan of movies/series
+                </label>
+              </div>
+            </li>
+            <li class="question" id="knowyou3"> Birthday...
+              <div class="form-group">
+                <label for="born">Date of birth:</label>
+                <input id="born" class="form-control" name="dob" type="date">
+              </div>
+            </li>
+            <li class="question" id="knowyou4"> Love language....
+              <div class="radio">
+                <label>
+                  <input type="radio" name="love4" value="1">
+                  Gifts are the best way someone can show they love me and that they're thinking about me
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="love4" value="2">
+                  Lets have some speial time just for the two of us to talk or do something together
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="love4" value="3">
+                  Lets cuddle, kiss and keep contact. That expresses just how much you love me.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="love4" value="4">
+                  Helping me out with chores, errands and lending out a hand when I have a lot of workload makes me feel loved.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="love4" value="5">
+                  Absolutely love it when I'm complimented on how I look/talk,behave. It makes me feel special and loved.
+                </label>
+              </div>
+            </li>
+            <li class="question" id="knowyou5"> How many children...
+              <div class="radio">
+                <label>
+                  <input list="children">
+                  <datalist id="children">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                    <option value="more than 10">
+                  </datalist>
+                </label>
+              </div>
+            </li>
+
+
+          </ol>
+          <ol id="personalityquestions">
+            <h5>Personality</h5>
+            <li class="question" id="personality1"> Which member of your friend group are you?
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="extraversion">
+                  The Leader
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="agreeableness">
+                  The reliable one
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="conscientiousness">
+                  The Planner
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="neuroticism">
+                  The vulnerable one
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="Openness">
+                  The artistic one
+                </label>
+              </div>
+            </li>
+            <li class="question" id="personality2"> My friends always say that
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="extraversion">
+                  I am the life of the party.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="agreeableness">
+                  I am a frank, candid and sincere person.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="conscientiousness">
+                  I have a high sense of moral obligation.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="neuroticism">
+                  I get enraged when things do not go my way.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="Openness">
+                  I am adventurous and eager to try new activities, travel to foreign lands, and experience different things.
+                </label>
+              </div>
+            </li>
+            <li class="question" id="personality3"> Which fits you best?
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="extraversion">
+                  I make friends easily and have no problems forming close and intimate relationships.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="agreeableness">
+                  I think most people are fair, honest are have good intentions.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="conscientiousness">
+                  I believe I have the intelligence (common sense), drive, and self-control necessary for achieving success.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="neuroticism">
+                  I often feel like something dangerous is about to happen.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="Openness">
+                  I think the real world is often too plain and ordinary.
+                </label>
+              </div>
+            </li>
+            <li class="question" id="personality4"> Please choose what best resonates with you
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="extraversion">
+                  I find the company of others pleasantly stimulating and rewarding. I enjoy the excitement of crowds.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="agreeableness">
+                  I usually feel the pain of others and tend to act with compassion towards them.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="conscientiousness">
+                  I tend to to think through possibilities before acting.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="neuroticism">
+                  I tend to panic, get confused, and feel helpless when under pressure or stress.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="Openness">
+                  I am not afraid to challenge authority, convention, and traditional values.
+                </label>
+              </div>
+            </li>
+            <li class="question" id="personality5"> What do you value most?
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="extraversion">
+                  Spontenaity
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="agreeableness">
+                  Morality
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="conscientiousness">
+                  Duty and obligation.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="neuroticism">
+                  Security and control
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="Openness">
+                  Intellect and artistic interests
+                </label>
+              </div>
+            </li>
+
+          </ol>
+      </div>
+      <!---start page5-->
+      <div id="page5">
+        <h5>Compatibility Results</h5>
+        <p>Overall Results:</p>
+        <ul>
+          <li>Culture and Religion:</li>
+          <li>Love Language:</li>
+          <li>Finances:</li>
+          <li>Temperament and Parenting Style:</li>
+          <li>How well do you know each other:</li>
+          <li>Personality</li>
+        </ul>
+        <button type="submit" class="btn btn-warning" id="back">Go Back!</button>
+      </div>
+
+    </div>
+  </div>
 </body>
+<script src="js/bootstrap.js" charset="utf-8"></script>
 
 </html>
