@@ -7,11 +7,10 @@
   <title>PENDO</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-
+  <!-- Bootstrap core CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
-  <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
   <!-- JQuery -->
@@ -21,6 +20,7 @@
   <!-- Bootstrap core JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
+
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/js/mdb.min.js"></script>
 </head>
 
@@ -167,6 +167,7 @@
 
             </div>
           </div>
+
         </div>
 
       </div>
@@ -241,6 +242,8 @@
         </div>
 
       </div>
+
+
       <div class="pos-f-t">
         <nav class="navbar navbar-dark bg-dark">
           <button class="navbar-toggler" type="button" data-toggle="collapse" id="sidebarCollapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
@@ -253,32 +256,90 @@
 
       <!---start page2-->
       <div id="page2">
+        <div class="card-deck">
         <div class="row">
           <div class="col-md-4">
-            <h2>Culture and Religion</h2>
-            <button type="submit" class="btn btn-warning" id="culture">Culture and Religion</button>
-            <br>
-            <h2>Love Language</h2>
-            <button type="submit" class="btn btn-info" id="language">Love Language</button>
-            <br>
+
+            <div class="card cardSet1">
+              <img src="images/indian.jpg" alt="Image representing culture" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h2>Culture and Religion</h2>
+                <div class="card-footer">
+                <button type="submit" class="btn btn-warning btnCard" id="culture">TAKE TEST HERE</button>
+              </div>
+              </div>
+            </div>
           </div>
+          <br>
+
           <div class="col-md-4">
-            <h2>Finances</h2>
-            <button type="submit" class="btn btn-danger" id="finance">Finances</button>
-            <br>
-            <h2>Temperament and Parenting Style</h2>
-            <button type="submit" class="btn btn-warning" id="temperament">Temperament and Parenting Style</button>
-            <br>
+            <div class="card cardSet2">
+              <img src="images/lovelang.jpg" alt="Image representing love language" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h2>Love Language</h2>
+                <div class="card-footer">
+                <button type="submit" class="btn btn-info btnCard" id="language">TAKE TEST HERE</button>
+              </div>
+              </div>
+            </div>
           </div>
+          <br>
           <div class="col-md-4">
-            <h2>How well do you know each other</h2>
-            <button type="submit" class="btn btn-info" id="know">How well do you know each other</button>
-            <br>
-            <h2>Personality</h2>
-            <button type="submit" class="btn btn-danger" id="personality">Personality</button>
+            <div class="card cardSet3">
+              <img src="images/piggy.jpg" alt="Pink piggy bank" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h2>Finances</h2>
+                <div class="card-footer">
+                <button type="submit" class="btn btn-danger btnCard" id="finance">TAKE TEST HERE</button>
+              </div>
+              </div>
+              </div>
+            </div>
           </div>
         </div>
         <br>
+
+        <div class="card-deck">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card cardSet4">
+              <img src="images/par.jpg" alt="Parenting image" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h2>Temperament and <br> Parenting Style</h2>
+                <div class="card-footer">
+                <button type="submit" class="btn btn-warning btnCard" id="temperament">TAKE TEST HERE</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="col-md-4">
+            <div class="card cardSet5">
+              <img src="images/parenting.jpg" alt="Parsonal connection image" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h2>How well do you know each other</h2>
+                <div class="card-footer">
+                <button type="submit" class="btn btn-info btnCard" id="know">TAKE TEST HERE</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="col-md-4">
+            <div class="card cardSet6">
+              <img src="images/perso.jpg" alt="Personality image" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h2>Personality</h2>
+                <div class="card-footer">
+                <button type="submit" class="btn btn-danger btnCard" id="personality">Personality</button>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+
         <form id="partner2">
           <div class="form-group">
             <label for="partner2">Who would you like to take the test with?</label>
@@ -287,7 +348,6 @@
           <button type="submit" class="btn btn-success" id=user2>Submit</button>
         </form>
       </div>
-      <br>
       <!---start page3-->
       <div id="page3">
 
