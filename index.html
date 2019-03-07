@@ -5,16 +5,18 @@
 <head>
   <meta charset="utf-8">
   <title>PENDO</title>
+  <!--Font-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twit
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twit">
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-  
+
   <!-- JQuery -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Bootstrap tooltips -->
@@ -24,6 +26,8 @@
   <!-- MDB core JavaScript -->
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/js/mdb.min.js"></script>
+  <script type="text/javascript" src = "js/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src = "js/scripts.js"></script>
 </head>
 
 <body>
@@ -396,6 +400,9 @@
                       </label>
                   </div>
                   </li>
+                  <form id="proceed">
+                      <button type="submit" class="btn-warning" id="ebutton1">Next</button>
+                 </form>
             </div>
             <div class="cultureshow2">
                 <div class="list-group-item list-group-item-warning">
@@ -491,6 +498,7 @@
               </div>
             </li>
             </div>
+            <button type="submit" class ="btn btn-info" id="sbutton1" >Next</button>
             <br>
             <div class="list-group-item">
             <div class="list-group-item list-group-item-info">
@@ -528,6 +536,7 @@
               </div>
             </li>
             </div>
+            <button type="submit" class ="btn btn-info" id="sbutton1" >Next</button>
             <br>
             <div class="list-group-item">
             <div class="list-group-item list-group-item-info">
@@ -565,6 +574,7 @@
               </div>
             </li>
             </div>
+            <button type="submit" class ="btn btn-info" id="sbutton3" >Next</button>
             <br>
             <div class="list-group-item">
             <div class="list-group-item list-group-item-info">
@@ -602,6 +612,7 @@
               </div>
             </li>
             </div>
+            <button type="submit" class ="btn btn-info" id= "sbutton4">Next</button>
             <br>
             <div class="list-group-item">
             <div class="list-group-item list-group-item-info">
@@ -639,7 +650,9 @@
               </div>
             </li>
             </div>
+            <button type="submit" class ="btn btn-info" id="sbutton5">Next</button>
           </ol>
+
           <ol id="financequestions">
             <h5>Finance</h5>
             <div class="list-group-item">
@@ -1022,6 +1035,9 @@
 
           </ol>
           <br>
+
+
+          <form id="personafrm">
           <ol id="personalityquestions">
             <h5>Personality</h5>
             <div class="list-group-item">
@@ -1036,25 +1052,25 @@
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question1" value="agreeableness">
+                  <input type="radio" name="question1" value="10">
                   The reliable one
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question1" value="conscientiousness">
+                  <input type="radio" name="question1" value="10">
                   The Planner
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question1" value="neuroticism">
+                  <input type="radio" name="question1" value="10">
                   The vulnerable one
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question1" value="Openness">
+                  <input type="radio" name="question1" value="10">
                   The artistic one
                 </label>
               </div>
@@ -1067,31 +1083,31 @@
             </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question2" value="extraversion">
+                  <input type="radio" name="question2" value="10">
                   I am the life of the party.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question2" value="agreeableness">
+                  <input type="radio" name="question2" value="10">
                   I am a frank, candid and sincere person.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question2" value="conscientiousness">
+                  <input type="radio" name="question2" value="10">
                   I have a high sense of moral obligation.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question2" value="neuroticism">
+                  <input type="radio" name="question2" value="10">
                   I get enraged when things do not go my way.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question2" value="Openness">
+                  <input type="radio" name="question2" value="10">
                   I am adventurous and eager to try new activities, travel to foreign lands, and experience different things.
                 </label>
               </div>
@@ -1104,31 +1120,31 @@
             </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question3" value="extraversion">
+                  <input type="radio" name="question3" value="10">
                   I make friends easily and have no problems forming close and intimate relationships.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question3" value="agreeableness">
+                  <input type="radio" name="question3" value="10">
                   I think most people are fair, honest are have good intentions.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question3" value="conscientiousness">
+                  <input type="radio" name="question3" value="10">
                   I believe I have the intelligence (common sense), drive, and self-control necessary for achieving success.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question3" value="neuroticism">
+                  <input type="radio" name="question3" value="10">
                   I often feel like something dangerous is about to happen.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question3" value="Openness">
+                  <input type="radio" name="question3" value="10">
                   I think the real world is often too plain and ordinary.
                 </label>
               </div>
@@ -1141,31 +1157,31 @@
             </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question4" value="extraversion">
+                  <input type="radio" name="question4" value="10">
                   I find the company of others pleasantly stimulating and rewarding. I enjoy the excitement of crowds.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question4" value="agreeableness">
+                  <input type="radio" name="question4" value="10">
                   I usually feel the pain of others and tend to act with compassion towards them.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question4" value="conscientiousness">
+                  <input type="radio" name="question4" value="10">
                   I tend to to think through possibilities before acting.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question4" value="neuroticism">
+                  <input type="radio" name="question4" value="10">
                   I tend to panic, get confused, and feel helpless when under pressure or stress.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question4" value="Openness">
+                  <input type="radio" name="question4" value="10">
                   I am not afraid to challenge authority, convention, and traditional values.
                 </label>
               </div>
@@ -1178,38 +1194,43 @@
             </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question5" value="extraversion">
+                  <input type="radio" name="question5" value="10">
                   Spontenaity
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question5" value="agreeableness">
+                  <input type="radio" name="question5" value="10">
                   Morality
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question5" value="conscientiousness">
+                  <input type="radio" name="question5" value="10">
                   Duty and obligation.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question5" value="neuroticism">
+                  <input type="radio" name="question5" value="10">
                   Security and control
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="question5" value="Openness">
+                  <input type="radio" name="question5" value="10">
                   Intellect and artistic interests
                 </label>
               </div>
             </li>
+            <button type="submit" class="btn btn-success" id="personalitybtn">Submit</button>
             </div>
           </ol>
+          </form>
+
+
       </div>
+
       <!---start page5-->
 
       <div id="page5">
@@ -1224,10 +1245,11 @@
           <li>Personality</li>
         </ul>
         <button type="submit" class="btn btn-warning" id="back">Go Back!</button>
-    </div>
+      </div>
+
     </div>
   </div>
 </body>
 <script src="js/bootstrap.js" charset="utf-8"></script>
-
+<script src="js/scripts.js" charset="utf-8"></script>
 </html>
