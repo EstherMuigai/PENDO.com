@@ -7,13 +7,14 @@
   <title>PENDO</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twit
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-
+  
   <!-- JQuery -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Bootstrap tooltips -->
@@ -454,7 +455,10 @@
           </ol>
           <ol id="lovelanguagequestions">
             <h5>Love Language</h5>
-            <li class="question" id="language1"> Which one best describes you?
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-info">
+              <li class="question" id="language1">Which one best describes you?
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question1" value="wordsofaffirmation">
@@ -486,8 +490,12 @@
                 </label>
               </div>
             </li>
-
-            <li class="question" id="language2"> I don't like it when
+            </div>
+            <br>
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-info">
+              <li class="question" id="language2"> I don't like it when
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question2" value="wordsofaffirmation">
@@ -519,8 +527,12 @@
                 </label>
               </div>
             </li>
-
+            </div>
+            <br>
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-info">
             <li class="question" id="language3"> I am always looking forward to
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question3" value="wordsofaffirmation">
@@ -552,8 +564,12 @@
                 </label>
               </div>
             </li>
-
-            <li class="question" id="language4"> I am the kind of person who would
+            </div>
+            <br>
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-info">
+              <li class="question" id="language4"> I am the kind of person who would
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question4" value="wordsofaffirmation">
@@ -585,8 +601,12 @@
                 </label>
               </div>
             </li>
-
-            <li class="question" id="language5"> I believe
+            </div>
+            <br>
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-info">
+              <li class="question" id="language5"> I believe
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question5" value="wordsofaffirmation">
@@ -618,10 +638,14 @@
                 </label>
               </div>
             </li>
+            </div>
           </ol>
           <ol id="financequestions">
             <h5>Finance</h5>
-            <li class="question" id="finance1"> Which one do you identify the most with?
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-danger">
+              <li class="question" id="finance1"> Which one do you identify the most with?
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question1" value="saver">
@@ -653,7 +677,12 @@
                 </label>
               </div>
             </li>
-            <li class="question" id="finance2"> People often call me
+            </div>
+            <br>
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-danger">
+              <li class="question" id="finance2"> People often call me
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question2" value="saver">
@@ -685,7 +714,12 @@
                 </label>
               </div>
             </li>
-            <li class="question" id="finance3"> Choose one that you can relate with
+            </div>
+            <br>
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-danger">
+              <li class="question" id="finance3"> Choose one that you can relate with
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question3" value="saver">
@@ -717,7 +751,12 @@
                 </label>
               </div>
             </li>
-            <li class="question" id="finance4"> An issue I am familiar with is
+            </div>
+            <br>
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-danger">
+              <li class="question" id="finance4"> An issue I am familiar with is
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question4" value="saver">
@@ -749,7 +788,12 @@
                 </label>
               </div>
             </li>
-            <li class="question" id="finance5"> Sometimes I think I should
+            </div>
+            <br>
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-danger">
+              <li class="question" id="finance5"> Sometimes I think I should
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question5" value="saver">
@@ -781,6 +825,7 @@
                 </label>
               </div>
             </li>
+            </div>
           </ol>
           <ol id="temperamentquestions">
             <h5>Temperament</h5>
@@ -976,9 +1021,13 @@
 
 
           </ol>
+          <br>
           <ol id="personalityquestions">
             <h5>Personality</h5>
-            <li class="question" id="personality1"> Which member of your friend group are you?
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-danger">
+              <li class="question" id="personality1"> Which member of your friend group are you?
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question1" value="extraversion">
@@ -1010,7 +1059,12 @@
                 </label>
               </div>
             </li>
-            <li class="question" id="personality2"> My friends always say that
+            </div>
+            <br>
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-danger">
+              <li class="question" id="personality2"> My friends always say that
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question2" value="extraversion">
@@ -1042,7 +1096,12 @@
                 </label>
               </div>
             </li>
-            <li class="question" id="personality3"> Which fits you best?
+            </div>
+            <br>
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-danger">
+              <li class="question" id="personality3"> Which fits you best?
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question3" value="extraversion">
@@ -1074,7 +1133,12 @@
                 </label>
               </div>
             </li>
-            <li class="question" id="personality4"> Please choose what best resonates with you
+            </div>
+            <br>
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-danger">
+              <li class="question" id="personality4"> Please choose what best resonates with you
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question4" value="extraversion">
@@ -1106,7 +1170,12 @@
                 </label>
               </div>
             </li>
-            <li class="question" id="personality5"> What do you value most?
+            </div>
+            <br>
+            <div class="list-group-item">
+            <div class="list-group-item list-group-item-danger">
+              <li class="question" id="personality5"> What do you value most?
+            </div>
               <div class="radio">
                 <label>
                   <input type="radio" name="question5" value="extraversion">
@@ -1138,10 +1207,11 @@
                 </label>
               </div>
             </li>
-
+            </div>
           </ol>
       </div>
       <!---start page5-->
+
       <div id="page5">
         <h5>Compatibility Results</h5>
         <p>Overall Results:</p>
@@ -1154,8 +1224,7 @@
           <li>Personality</li>
         </ul>
         <button type="submit" class="btn btn-warning" id="back">Go Back!</button>
-      </div>
-
+    </div>
     </div>
   </div>
 </body>
