@@ -1,6 +1,7 @@
 .wrapper {
     display: flex;
     align-items: stretch;
+    width:100%;
 }
 
 #sidebar {
@@ -12,6 +13,7 @@
 #sidebar.active {
     margin-left: -250px;
 }
+
 a[data-toggle="collapse"] {
     position: relative;
 }
@@ -22,4 +24,106 @@ a[data-toggle="collapse"] {
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
+}
+#introduction{
+  background-size: 1370px 590px;
+  height: 609px;
+  width: 1366px;
+
+}
+#spin{
+  padding-top: 20px;
+  margin-left: 650px;
+  margin-top: 10px;
+}
+#heading{
+  padding-top: 10px;
+}
+#introhead{
+  font-size: 70px;
+  padding-top: 150px;
+  color: white;
+  text-align: center;
+}
+/*Card styles*/
+.card{
+  width: 95%;
+  height:95%;
+  transition: transform .2s;
+}
+.btnCard{
+  width: 20rem;
+  border-radius: 0;
+}
+.card:hover{
+  transform: scale(1.2);
+}
+/* Set card backgrounds */
+.cardSet1{
+ background-color: #F3D76A;
+}
+
+.cardSet2{
+ background-color: #EDB28A;
+}
+.cardSet3{
+background-color: #F6F8F7;
+}
+.cardSet4{
+background-color: #FFAEAA;
+}
+.cardSet5{
+background-color: #F8EFC4;
+}
+.cardSet6{
+background-color: #F3BC93;
+}
+
+/* Page 4 styles*/
+h5 {
+  font-size: 35px;
+  text-align: center;
+}
+#page4 {
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+  font-size: 20px;
+}
+
+.cultureshow1{
+  margin-top: 10%;
+}
+.cultureshow2{
+  margin-top: 10%;
+}
+.cultureshow3{
+  margin-top: 10%;
+}
+.cultureshow4{
+  margin-top: 10%;
+}
+#lovelanguagequestions{
+
+}
+#financequestions{
+  margin-top: 10%;
+}
+#temperamentquestions{
+  margin-top: 10%;
+}
+#knowquestions{
+  margin-top: 10%;
+}
+#personalityquestions{
+  margin-top: 10%;
+}
+#ebutton1 {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 2cm;
+}
+#ebutton1:hover{
+  background-color: black;
 }
