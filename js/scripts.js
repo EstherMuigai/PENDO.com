@@ -12,11 +12,9 @@ $(document).ready(function(){
     welcome()
   })
   $("#signup").click(function(){
-
+    welcome()
     firstname=$("#name1").val()
-    alert(firstname)
     lastname=$("#name2").val()
-    alert(lastname)
   })
   $("#trial").click(function(){
     getvalues();
@@ -25,6 +23,5 @@ $(document).ready(function(){
 function welcome(){
   $("#wrap").show();
   $("#introduction").hide();
-  alert(email)
   $("#displayemail").text(email)
 }
